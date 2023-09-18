@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const { MONGO_URI } = require('./config');
+const { MONGO_URI } = require('./Config');
 const postsRoutes = require('./routes/api/posts_controller')
 const app = express();
 app.use(express.json());
